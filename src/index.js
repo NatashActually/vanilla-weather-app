@@ -16,7 +16,6 @@ function searchCity(city) {
 function handleSearchSubmit(event) {
   event.preventDefault();
 
-  cityElement.innerHTML = searchInput.value;
   let searchInput = document.querySelector("#search-form-input");
   searchCity(searchInput.value);
 }
