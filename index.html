@@ -3,40 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Vanilla Weather App</title>
   </head>
-  <header>
-    <form>
-      <input type="search" placeholder="Enter a city..." required />
-      <input type="submit" value="search" />
-    </form>
-  </header>
-  <main>
-    <div>
-      <h1>Cape Town</h1>
-      <p>
-        Wednesday 6:09, overcast clouds
-        <br />
-        Humidity: 90%, Wind: 4.63km/h
-      </p>
-    </div>
-    <div>⛅ 12°C</div>
-  </main>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Cape Town</h1>
+          <p>
+            Wednesday 6:09, overcast clouds
+            <br />
+            Humidity: 90%, Wind: 4.63km/h
+          </p>
+        </div>
+        <div>⛅ 12°C</div>
+      </main>
 
-  <footer>
-    Coded by
-    <a href="https://github.com/NatashActually" target="_blank">
-      Natasha Wingrove</a
-    >, code hosted
-    <a
-      href="https://github.com/NatashActually/vanilla-weather-app"
-      target="_blank"
-    >
-      on GitHub</a
-    >
-    and website hosted
-    <a href="https://shecodes-weather-vanilla-app.netlify.app/" target="_blank">
-      on Netlify</a
-    >
-  </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/NatashActually" target="_blank">
+          Natasha Wingrove</a
+        >, code hosted
+        <a
+          href="https://github.com/NatashActually/vanilla-weather-app"
+          target="_blank"
+        >
+          on GitHub</a
+        >
+        and website hosted
+        <a
+          href="https://shecodes-weather-vanilla-app.netlify.app/"
+          target="_blank"
+        >
+          on Netlify</a
+        >
+      </footer>
+    </div>
+  </body>
 </html>
