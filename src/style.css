@@ -62,7 +62,7 @@ main {
   font-weight: 500;
 }
 
-.weather-app-details span {
+.weather-app-details strong {
   color: #f65282;
 }
 .weather-app-temp-container {
