@@ -5,6 +5,7 @@ function updateWeatherTemp(response) {
   let weatherDescriptionElement = document.querySelector(
     "#weather-description",
   );
+  let humidity = response.data.temperature.current;
 
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind-speed");
@@ -18,7 +19,7 @@ function updateWeatherTemp(response) {
   timeElement.innerHTML = "Tuesday, 14:49";
   temperatureElement.innerHTML = Math.round(temperature);
   weatherDescriptionElement.innerHTML = response.data.condition.description;
-  humidityElement.innerHTML = `${response.data.temperature.current}%`;
+  humidityElement.innerHTML = `${Math.round(humidity)}%`;
   windElement.innerHTML = `${response.data.wind.speed} km/h`;
   timeElement.innerHTML = formatDate(date);
 }
