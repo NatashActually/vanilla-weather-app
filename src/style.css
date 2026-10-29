@@ -14,6 +14,7 @@ a {
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  margin-bottom: 88px;
 }
 
 header {
@@ -81,7 +82,7 @@ main {
 }
 
 .weather-app-unit {
-  font-size: 28px;
+  font-size: 25px;
   margin-top: 6px;
 }
 
@@ -103,7 +104,6 @@ main {
   width: 88px;
   height: 88px;
   display: block;
-  margin: 0 auto;
 }
 
 .forecast-temperatures {
@@ -121,7 +121,8 @@ main {
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
+
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
 }
